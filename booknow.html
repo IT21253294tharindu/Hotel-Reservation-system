@@ -1,0 +1,173 @@
+<?php
+require "config.php";
+?>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<link rel ="stylesheet" href="hotel.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HOTELS | GALLERY</title>
+    <link rel="stylesheet" href="style.css">
+	<script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+	<script src="https://kit.fontawesome.com/b60a2ded9f.js"></script>
+	<script type="text/javascript">
+	
+    </script>
+</head>
+<body>
+    
+	<!--header-->
+	
+    <header class="header">
+        <a href="y.index.html" id="logo"><img src="imgaes/Hlogo.png" alt=""></a>
+        <nav class="navbar">
+            <a href="y.index.html">Home</a>
+            <a href="http://localhost/Hotels/src/yugantha/src/login.php">Login</a>
+            <a href="http://localhost/Hotels/src/yugantha/src/signup.php">Sign Up</a>
+            <a href="about.html">About</a>
+            <a href="contact us.html">contact</a>
+        </nav>
+        <div class="icons">
+            
+			
+            <div class="fas fa-search" id="serach-bar"></div>
+            <div class="fas fa-user" id="myuser"></div>
+            <div class="fas fa-bars" id="menu-bars"></div>
+        </div>
+
+        <div class="search-box">
+            <input type="search" placeholder="search here">
+        </div>
+		
+	<div class="sidebar">
+	<center><h3>Menu</h3></center>
+	   <ul>
+	     <li><a href="">Rooms & suites</a></li>
+		 <li><a href="">Offers</a></li>
+		 <li><a href="">Eat & Drinks</a></li>
+         <li><a href="">Wellness</a></li>
+         <li><a href="">Attraction places</a></li>
+         <li><a href="">Reviews</a></li>
+         <li><a href="">Location</a></li>
+		 <li><a href="">Gallery</a></li>
+	   </ul>
+	   <button class="sidebarBtn">
+	     <span></span>
+	   </button>
+	</div>
+        
+    </header>
+	
+	<!--header end -->
+	
+<!-- background image -->
+
+     <div class="ABC-background"></div>  
+	<br>
+    <!-- background image ended -->
+	
+    <div class="ABC-text">
+       <h1>BOOK NOW</h1><br>
+    </div>
+
+<!-- background -->
+<center><h1><b></b></h1></center>
+<center>
+
+<form action="http://localhost/Hotels/src/yugantha/src/hotel.php" method="post">
+  <label for="arriving"><h2>Arriving date:</h2></label>
+  <input type="date" id="arriving" name="arriving">
+  <label for="close"><h2>Closing date:</h2></label>
+  <input type="date" id="closing" name="closing">
+
+<br/><br/>
+
+<hr>
+<label for="hotel"><h2>Choose a hotel name</h2></label>
+
+<select name="Hotelname" id="hotel">
+  <option value="ABC">ABC Hotel</option>
+  <option value="EF">EF Hotel</option>
+  <option value="ZZ">ZZ Hotel</option>
+</select>
+
+<label for="hotel"><h2>Choose a room type</h2></label>
+
+<select name="Roomtype" id="hotel">
+  <option value="Normal Room">Normal Room</option>
+  <option value="Superior Room">Superior Room</option>
+  <option value="Sea view Room">Sea view Room</option>
+</select>
+
+<label for="hotel"><h2>Choose number of rooms</h2></label>
+
+<select name="Noofrooms" id="hotel">
+  <option value="1">1</option>
+  <option value="2">2</option>
+  <option value="3">3</option>
+</select>
+
+<label for="hotel"><h2>Choose number of adults</h2></label>
+
+<select name="Noofadults" id="hotel">
+  <option value="1">1</option>
+  <option value="2">2</option>
+  <option value="3">3</option>
+</select>
+
+<label for="hotel"><h2>Choose number of kids</h2></label>
+
+<select name="Noofkids" id="hotel">
+  <option value="1">1</option>
+  <option value="2">2</option>
+  <option value="3">3</option>
+</select>
+<br/><br/>
+<input type="submit">
+</center>
+<!-- background end -->
+    
+<!-- footer -->
+<footer>
+	<div class="row">
+	      <div class="col">
+		    <a href="#" id="seclogo"><img src="imgaes/hotellogo.png" alt="" width = "80px" height = "60px"></a>
+			<p>
+		    Sri Lanka offers beautiful nature, sights and relaxation on long beaches, as well as breathtaking views and locations in the mountains, which might even surprise you.
+			Our hotel is located in one of these areas. You can relax and enjoy the lovely views in a pleasant climate directly from the terraces of our hotel rooms and the hotel restaurant.
+		    </p>
+		  </div>
+		  <div class="col">
+		    <h3>office</h3>
+			<p>05 colombo Road</p>
+			<p>Pitakotuwa, World Trade Center</P>
+			<p>Colombo, Sri Lanka Postal code 00500</P>
+			<p class="email-id">infohotels@gmail.com</P>
+			<h4>+94-767903153</h4>
+		  </div>
+		 
+		  <div class="social-icons">
+		      <h3> links</h3>
+		      <ul>
+		        <li><i class="fa-brands fa-facebook"><a href="https://www.facebook.com/"> Facebook</a></i></li>
+                <li><i class="fa-brands fa-twitter"><a href="https://twitter.com/"> Twitter</a></i></li>
+			    <li><i class="fa-brands fa-instagram"><a href="https://www.instagram.com/"> Instagram</a></i></li>
+			    <li><i class="fa-brands fa-whatsapp"><a href="https://web.whatsapp.com/"> Whatsapp</a></i></li>
+		      </ul>
+		  </div>
+		 
+		  <div class="col">
+			<a href="#" id="QRlogo"><img src="imgaes/QR.png" alt="logo" width = "200px" height = "200px"></a>
+		  </div>
+	</div>
+	<br>
+	<hr>
+	   <p class="copyright">Created by 8.2 Group 01</p>
+</footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
